@@ -1,2 +1,3 @@
-# css-assignment
- CSS-Assignment, FSSD
+# CSS Assignment
+Second Assignment
+FSSD Program, Canadian Business College
