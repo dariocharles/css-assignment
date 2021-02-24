@@ -1,33 +1,20 @@
 /* Q#1 All the HTML5 new elements are displayed as block-level elements*/
 
+/* header, section, footer, aside, nav, main, article, figure { */
+    /* display: block;  */
+/* } */
 
- * { 
-     display: block;
- } 
-
-
-/* Q#2 */
-The <body> element has to be styled with:
-a. Any colour you prefer for the text
-b. A background image, you can use any one from the 7 samples of dark-woodx.jpg. So, pick the
-one that reflects the colour of your website.
-▪ If no one matches your website colour, you can use Photoshop to change its colours
-▪ If you haven’t finished the Photoshop module, you will have no other choice just to pick one
-of the provided samples
-▪ Make sure to have only one background image which is the one that is used in your css code
-c. The font family (face) is at least 3 options of any sans-serif fonts
-d. Margin 0 for all the four sides (top, bottom, left, right)
+/* Q#2 Witht the <body> element, I styled the text color, added a back-ground image, added font-family, set the margins and padding to 0, and used the declaration box-sizing: border-box;.*/ */
 
 body {
-    color:   ;
-    background-image: url("")   ;
-    font-family: 1, 2, 3, sans-serif;
-    margin: 0;
-    padding: o;
-    box-sizing: 0;     
+    background-color: blue;
+    /* color: rgb(112, 32, 32);  */
+     /* background-image: url("../project.css/darkwood1.jpg");  */
+    /* font-family: 1, 2, 3, sans-serif; */
+    /* margin: 0; */
+    /* padding: o; */
+    /* box-sizing: border-box;      */
 }
-
-
 
 
 /* Q#3 */
