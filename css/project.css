@@ -4,22 +4,21 @@ header, section, footer, aside, nav, main, article, figure {
     display: block; 
 }
 
-/* Q#2 I styled the <body> element with text color, a background image, a background color incase the background 
+/* Q#2 I styled the <body> element with text colour, a background image, a background colour incase the background 
 image does not load, a text font, margins and padding of 0, and a box-sizing: border-box; declaration.*/ 
 
 body {
    color: rgb(112, 32, 32);
    background-color: rgb(49, 5, 5);
    background-image: url("../assets/images/dark-wood1.jpg");
-   font-family: Verdana, Geneva, Tahoma, sans-serif
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
 
-
 /* Q#3 * I styled the <div class="container> element with a width of 950px, top and bottom margin of 5px, 
-       left and right margin of auto to center the element, and background-color.  */
+       left and right margin of auto to centre the element, and background colour.  */
 
 div.container { 
    width: 950px;
@@ -27,33 +26,135 @@ div.container {
    background-color: rgb(230, 224, 208);
 }
 
-/* Q#4 */
+/* Q#4 I styled the <main> element and it's decendents using the class "content"
+       by setting the text's line height to 1.4em and adding a padding 10px. */
 
-/* Q#5 */
+.content {
+   line-height: 1.4em;
+   padding: 10px; 
+}
 
-/* Q#6 */
+/* Q#5 I styled the header, nav, and footer elements with a background colour
+       and a text colour */
 
-/* Q#7 */
+header, nav, footer {
+   background-color: rgb(156, 104, 8);
+   color: rgb(255, 255, 255);
+}
 
-/* Q#8 */
+/* Q#6 I styled the ul decendent of the nav element with a margin of 0 for all sides
+       and a padding of 5px for all sides. */
 
-/* Q#9 */
+nav ul {
+   margin: 0;
+   padding: 5px;
+}
 
-/* Q#10 */
+/* Q#7 I styled the list items in the nav bar so they display horizontally, have a 40px
+       margin on the right side, and the text is uppercase. */
 
-/* Q#11 */
+nav li {
+   display: inline-block; 
+   margin-right: 40px;
+   text-transform: uppercase;
+}
 
-/* Q#12 */
+/* Q#8 I changed the colour of the nav bar text using the four pseudo classes*/
 
-/* Q#13 */
+nav li a:link {
+   color: rgb(255, 255, 255);
+}
 
-/* Q#14 */
+nav li a:visited {
+   color:rgb(204, 125, 162);
+   
+}
 
-/* Q#15 */
+nav li a:hover {
+   /* color:rgb(228, 155, 155); */
+   color:rgb(152, 212, 160)
+}
 
-/* Q#16 */
+nav li a:active {
+   color: rgb(255, 255, 255);
+}
 
-/* Q#17 */
+
+/* Q#9 I styled the anchor elements (other than the ones in the nav bar) by adding a text 
+       colour and taking out the hyperlink default underline. */
+
+a {
+   color:rgb(207, 68, 133);
+   text-decoration: none;
+}
+
+/* Q#10 I styled the three headings by adding a margin of 10px on all sides and making 
+       the text blue and in uppercase. */
+       
+h1, h2, h3 {
+   margin: 10px;
+   text-transform: uppercase;
+   color: rgb(65, 76, 173);
+}
+
+/* Q#11 I styled the custom class named "img-centre" by centering it on the page, adding
+        a top and bttm margin if 5px, and a padding of 2px on all sides. */
+
+.img-centre {
+   display: block;
+   margin: 5px auto;
+   padding: 2px;
+}
+
+/* Q#12 I styled the audio and video elements by centering them and adding a top and bttm margin of 10px */
+
+audio, video {
+   display: block;
+   margin: 10px auto;
+}
+
+/* Q#13 I styled the table to be centered with a margin of 10px on the top and bottom. I gave the table a 
+        a width of 800px and callpsed the border. */
+
+table {
+   width: 800px;
+   margin: 10px auto;
+   border-collapse: collapse;
+}
+
+/* Q#14 I styled the table data and table head with a border style, a background colour, and a padding
+        of 2px on the top/bttm and 5px of L/R.*/
+
+td, th  {
+   border-style: dotted;
+   padding: 2px 5px;
+   background-color: rgb(214, 185, 185);
+   
+}
+
+/* Q#15 I styled the <th>'s in the <thead> and <tfoot> by adding a background colour, text colour, and 
+        making the text uppercase. In my HTML I didn't use a <td> in my <tfoot> as the instructions suggested. */
+
+th {
+   text-transform: uppercase;
+   background-color: rgb(136 201 227);
+   color: rgb(255, 255, 255)  ;
+}
+
+/* Q#16 I styled the <dt> elements by making the text bold.*/
+
+dt {
+   font-weight: bold;
+}
+
+/* Q#17 I styled the <footer> by changing the font size to 80% of the default font, aligning the text to the centre,
+        and adding 1px of padding on the top/bttm and no padding on the R/L. */
+
+footer {
+   font-size: 80%;
+   text-align: center;
+   padding: 1px 0;
+}
 
 /* Q#18 */
 
