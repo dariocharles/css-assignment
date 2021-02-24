@@ -137,7 +137,7 @@ td, th  {
 
 th {
    text-transform: uppercase;
-   background-color: rgb(136 201 227);
+   background-color: rgb(20 115 219);
    color: rgb(255, 255, 255)  ;
 }
 
@@ -156,12 +156,61 @@ footer {
    padding: 1px 0;
 }
 
-/* Q#18 */
+/* Q#18 I styled the iframe element by centering it and adding a top/bttm margin of 10px. */
 
-/* Q#19 */
+iframe {
+   display: block;
+   margin: 10px auto;
+}
 
-/* Q#20 */
+/* Q#19 I styled the <fieldset> element by adding a width of 500px, a dotted border, and a background colour.
+        I also centered it and gave it a margin of 20px for the top/bttm. */
 
-/* Q#21 */
+fieldset {
+   width: 500px;
+   margin: 20px auto;
+   border: 0.5px solid rgb(156, 104, 8);
+   background-color: rgb(214, 185, 185);
+}
 
-/* Q#22 */
+/* Q#20 I styled the legend elements with an italic font style, background colour, text colour, and a rounded border. 
+        I also gave the legend a margin of 0 for top/bttm and 5px for R/L and a padding of 0 for top/bttm and 5px for
+        R/L. */
+
+legend {
+   font-style: italic;
+   background-color: rgb(20 115 219);
+   color: rgb(255, 255, 255);
+   margin: 0 10px;
+   padding: 0 5px;
+   border: 0.5px solid rgb(83, 72, 231);
+   border-radius: 3px;
+}
+
+/* Q#21 I styled the input element with the typ="submit" by adding a border, padding of 5px all around, background colour,
+        and text colour. */
+
+input[type="submit"] {
+   border: 0.5px solid rgb(83, 72, 231);
+   padding: 5px;
+   background-color: rgb(20 115 219);
+   color: rgb(255, 255, 255);
+   border-radius: 3px;
+   font-weight: bold;
+}
+
+/* Q#22 I styled the the input element with the attriubte type="submit" when it is in a hover state by changing the text 
+        colour, background colour, and the cursor to a hand. */
+
+input[type="submit"]:hover {
+   color:rgb(0, 0, 0) ;
+   background-color: rgb(97, 243, 253);
+   cursor: pointer;
+}
+
+
+
+
+
+
+
