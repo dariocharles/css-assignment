@@ -80,6 +80,13 @@ nav li a:active {
 }
 
 
+/* Added Centering for the navigation bar.*/
+
+nav {
+   display: flex;
+   justify-content: center;
+}
+
 /* Q#9 I styled the anchor elements (other than the ones in the nav bar) by adding a text 
        colour and taking out the hyperlink default underline. */
 
